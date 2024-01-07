@@ -1,0 +1,29 @@
+header {
+    display: flex;
+    flex-direction: row;
+    background-color: #151515;
+    width: 80rem;
+    height: 2.9375rem;
+    max-width: 100%;
+    align-items: center;
+}
+
+.logo {
+    width: 3.9375rem;
+    height: 1.5625rem;
+    margin: 0.5rem;
+}
+
+h1 {
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    float: right;
+    margin-left: auto;
+}
+h1 {
+    color: white;
+}

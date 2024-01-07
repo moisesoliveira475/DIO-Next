@@ -1,9 +1,9 @@
-import styles from "./button.module.css";
+import styles from './button.module.css';
 
-export default function Button({title}: any) {
+export default function Button({content}: IButtonProps) {
     return (
-        <button className={styles.button}>
-            {title}
+        <button className={styles.button} aria-label={content} title={content}>
+            {content}
         </button>
     );
 }
